@@ -6,6 +6,6 @@ public class Sphere : MonoBehaviour
 {
     private void OnMouseDown()
     {
-        Destroy(gameObject);
+        Destroy(gameObject, 2);
     }
 }
